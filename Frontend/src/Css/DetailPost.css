@@ -1,0 +1,241 @@
+
+.Inclusive-detailPost-page {
+    width: 1000px;
+    margin: 2rem auto 4rem;
+    position: relative;
+}
+
+@media only screen and (max-width: 1000px) {
+    .Inclusive-detailPost-page {
+        width: 100%;
+        padding: 0 16px;
+    }
+}
+
+.top_detail_wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.top_detail_wrapper h5 {
+    font-size: 2.4rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+    padding-left: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post-general-info {
+    width: 100%;
+    height: 65px;
+    background-color: #f4f7fd;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18px;
+    position: relative;
+}
+
+.post-general-info ul {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-general-info ul li {
+    list-style: none;
+}
+
+.post-general-info ul b {
+    margin: 0 6px;
+    font-weight: normal !important;
+}
+
+li.post-author-info {
+    display: flex;
+    align-items: center;
+    margin-right: 11px;
+}
+
+li.post-author-info img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+li.post-author-info span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #FF55A9;
+    margin: 0 6px;
+}
+
+li.post-createdAt,
+li.post-readtime {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(121, 121, 121);
+    font-size: 0.8rem;
+    font-weight: 560;
+}
+
+.Inclusive-DetailPost-page .post-content {
+    height: auto;
+    width: 100%;
+    margin-top: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    position: relative;
+    line-height: 32px;
+}
+
+.post-banner-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.post-banner-img img {
+    width: 92%;
+    height: 400px;
+    margin: 1.9rem 0;
+    object-fit: cover;
+}
+
+.post-content a {
+    font-weight: bold;
+    color: black;
+    padding: 0 4px;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem 0;
+}
+
+.post-content h2 {
+    font-size: 1.7rem;
+}
+
+.post-content blockquote {
+    border-left: 4px solid black;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.post-content ul {
+    margin-bottom: 24px;
+}
+
+.post-content ul li {
+    margin: 10px 0;
+}
+
+.post-content .content {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.bottom-sec-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+    margin: 2rem auto;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding: 14px 0;
+}
+
+.bottom-sec-item ul,
+.fixed-post-options ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.bottom-sec-item ul li,
+.fixed-post-options ul li {
+    padding: 0 4px;
+    list-style-type: none;
+    margin-right: 18px;
+}
+
+.comment-info-wrap {
+    display: flex;
+    align-items: center;
+    color: #4e4e4e;
+}
+
+.comment-info-wrap i {
+    margin-right: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: -5px;
+    transition: 350ms ease;
+}
+
+
+
+.bottom-sec-item ul li i svg,
+.fixed-post-options ul li i svg {
+    font-size: 1.2rem;
+    margin-right: 6px;
+    margin-top: -4px;
+    color: rgb(116, 116, 116);
+    cursor: pointer;
+}
+
+.bottom-sec-item ul li b,
+.fixed-post-options ul li b,
+.comment-info-wrap b {
+    display: inline;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(99, 99, 99);
+}
+
+.fixed-post-options {
+    border-top: rgb(236, 236, 236) solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 8px;
+    position: fixed;
+    bottom: 0;
+    background-color: #fbfdff;
+}
+
+@media only screen and (max-width: 1000px) {
+    .fixed-post-options {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        left: 0;
+    }
+}
+
+
+.top_post_transactions {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.top_post_transactions a {
+    margin-right: 20px;
+    color: black;
+}
+
+.top_post_transactions span {
+    color: #FF55A9;
+    cursor: pointer;
+}

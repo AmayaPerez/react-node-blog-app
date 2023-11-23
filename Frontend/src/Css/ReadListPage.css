@@ -1,0 +1,206 @@
+.Inclusive-readList-page {
+    width: 700px;
+    margin: 2.6rem auto;
+}
+
+.Inclusive-readList-page h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.1rem;
+    margin-bottom: 1.6rem;
+    font-weight: bold;
+}
+
+.readList-top-block {
+    padding: 0 3px;
+    display: flex;
+    margin-bottom: 2.6rem;
+    position: relative;
+}
+
+.readList-top-block img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.readList-top-block .BsThreeDots-icon {
+    position: absolute;
+    right: 0;
+    top: 3px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: rgb(61, 61, 61);
+}
+
+.readList-top-block .activeUser-info-wrapper {
+    font-family: 'Roboto', sans-serif;
+}
+
+.readList-top-block .activeUser-info-wrapper b {
+    color: #FF55A9;
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+.activeUser-info-wrapper div span {
+    margin-right: 7px;
+    font-size: 0.8rem;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+}
+
+.activeUser-info-wrapper div i svg {
+    font-size: 0.8rem;
+    color: rgb(70, 70, 70);
+    margin-left: 6px;
+    margin-top: -1px;
+}
+
+.readList-post-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.readList-post-wrapper .readList-post-item {
+    border-bottom: rgba(214, 214, 214, 0.4) solid 1px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.7rem;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.readList-post-item section:first-child {
+    width: 70%;
+}
+
+.readList-post-item .post-top-block {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.readList-post-item .post-top-block span {
+    margin: 0 6px;
+}
+
+.readList-post-item .post-top-block i svg {
+    margin-left: 9px;
+    font-size: 0.7rem;
+    margin-top: -2px;
+    color: rgb(63, 63, 63);
+}
+
+.post-med-block {
+    position: relative;
+    width: 100%;
+}
+
+.readList-post-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+}
+
+.readList-post-title a {
+    color: rgb(49, 49, 49);
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.readList-post-content {
+    max-height: 44px;
+    overflow: hidden;
+}
+
+.readList-post-content * {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 730px) {
+    .Inclusive-readList-page {
+        width: 100%;
+        padding: 0 22px;
+    }
+    .readList-post-title {
+        font-size: 1.2rem;
+        padding-right: 7px;
+    }
+    .readList-post-content * {
+        font-size: 0.8rem;
+        padding-right: 10px;
+    }
+}
+
+.post-bottom-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+    align-items: center;
+}
+
+.post-bottom-block a {
+    color: #FF55A9;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.post-bottom-block a span {
+    margin-right: 3px;
+}
+
+.post-bottom-block div i {
+    margin-right: 0.8rem;
+    cursor: pointer;
+}
+
+.readList-post-item section:last-child .post-Image-Wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 730px) {
+    .Inclusive-readList-page {
+        width: 100%;
+        padding: 0 22px;
+    }
+    .readList-post-title {
+        font-size: 1.2rem;
+        padding-right: 7px;
+    }
+    .readList-post-content * {
+        font-size: 0.8rem;
+        padding-right: 10px;
+    }
+    .readList-post-item section:last-child .post-Image-Wrap {
+        align-items: center;
+    }
+}
+
+.post-Image-Wrap img {
+    width: 115px;
+    height: 115px;
+}
+
+.empty-readList {
+    height: 350px;
+    display: flex;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(112, 112, 112);
+    justify-content: center;
+    align-items: center;
+}
