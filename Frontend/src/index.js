@@ -5,9 +5,9 @@ import AuthContextProvider from './Context/AuthContext'
 
 import axios from 'axios';
 
-/* axios.defaults.baseURL = 'https://blog-app-lyart-chi.vercel.app/';
+axios.defaults.baseURL = 'https://react-node-blog-app.vercel.app';
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'; 
- */
+ 
 ReactDOM.render(
   <React.StrictMode>
     <AuthContextProvider>
